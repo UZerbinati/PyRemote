@@ -1,9 +1,9 @@
 import ftplib
 import os
 import easygui as eg
-ftphost = "uzbox.altervista.org"
-ftpuser = "uzbox"
-ftppass = "annepasswd"
+ftphost = ""
+ftpuser = ""
+ftppass = ""
 def download(ftp,directory,file):
     ftp.cwd(directory)
     f = open(file,"wb")
